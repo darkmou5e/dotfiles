@@ -1,9 +1,11 @@
 set expandtab
-set textwidth=79
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
 set autoindent
 set autochdir
 
-:syntax on
+syntax on
+
+set incsearch
+set smartcase
